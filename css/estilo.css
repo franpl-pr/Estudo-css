@@ -1,0 +1,30 @@
+/*ul {
+	border: 1px solid red;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 5px 20px;
+	background: url(../img/seta.png) no-repeat left center;
+}*/
+
+ul {
+	margin: 0;
+	padding-left:  0;
+	list-style-type: none;
+
+}
+ul a {
+	width: 250px;
+	height: 40px;
+	display: block;
+	color: black;
+	text-decoration: none;
+	background: url(../img/menu.png) no-repeat right bottom;
+
+}
+a:hover {
+	background-position: right bottom;
+}
