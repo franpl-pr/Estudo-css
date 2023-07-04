@@ -17,14 +17,17 @@ ul {
 
 }
 ul a {
-	width: 250px;
+	width: 200px;
 	height: 40px;
 	display: block;
-	color: black;
+	color: #000;
 	text-decoration: none;
-	background: url(../img/menu.png) no-repeat right bottom;
+	text-indent: 40px;
+	line-height: :40px;
+	background: url(../img/menu.png) no-repeat left bottom;
 
 }
 a:hover {
 	background-position: right bottom;
+	color: #fff;
 }
